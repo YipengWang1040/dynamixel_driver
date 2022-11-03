@@ -1,0 +1,13 @@
+
+<launch>
+
+  <arg name="config_path"
+    default="$(find dynamixel_driver)/config/default.yaml"/>
+
+
+
+  <node pkg="dynamixel_driver" type="driver.py" name="dynamixel_driver" output="screen">
+    <param name="config_file" type="string" value="$(arg config_path)" />
+  </node>
+
+</launch>

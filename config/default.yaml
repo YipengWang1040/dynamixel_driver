@@ -1,0 +1,8 @@
+# the port of the device. if '-1' is set, the first motor will be used
+port: -1   
+
+# initial velocity in rads
+velocity: 1
+
+# zero position in degree of the device
+zero_pos: 0
